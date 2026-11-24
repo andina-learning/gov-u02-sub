@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="Dos escenas. En la primera, un docente habla y en su globo de diálogo aparece un gráfico de barras con una barra encerrada en un círculo; un estudiante lo escucha con un brazo apoyado en una mesa vacía. En la segunda, el mismo estudiante, con un lápiz amarillo en la mano, encierra en un círculo esa barra en la hoja del caso.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u02-sub · tema 1 (cuerpo)
+       Concepto (DI, P170): «Escuchar un análisis realizado por el docente puede aportar comprensión, pero por sí
+       solo no permite practicar la capacidad de analizar.»
+       Único amarillo: el lápiz del estudiante. Sin texto. -->
+  <defs>
+    <linearGradient id="ilu-escuchar-analizar-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E6F3FA"/>
+      <stop offset="55%" stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <filter id="ilu-escuchar-analizar-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="440" rx="18" fill="url(#ilu-escuchar-analizar-fondo)"/>
+  <g filter="url(#ilu-escuchar-analizar-sombra)" fill="#FFFFFF">
+    <rect x="50" y="34" width="530" height="372" rx="16"/>
+    <rect x="620" y="34" width="530" height="372" rx="16"/>
+  </g>
+  <!-- ══ Escuchar un análisis realizado por el docente ══ -->
+  <path d="M224 68H422Q440 68 440 86V250Q440 268 422 268H232L190 250L206 222V86Q206 68 224 68Z" fill="#E8EDF5" stroke="#00417B" stroke-width="4" stroke-linejoin="round"/>
+  <g transform="translate(249 238) scale(1)"><rect x="0" y="-46" width="26" height="46" rx="4" fill="#84BCE4"/><rect x="40" y="-74" width="26" height="74" rx="4" fill="#84BCE4"/><rect x="80" y="-118" width="26" height="118" rx="4" fill="#00417B"/><rect x="120" y="-58" width="26" height="58" rx="4" fill="#84BCE4"/><path d="M-14 4H166" stroke="#132B41" stroke-width="5" stroke-linecap="round"/><ellipse cx="93" cy="-60" rx="34" ry="82" fill="none" stroke="#132B41" stroke-width="5.5"/></g>
+  <path d="M78 406V296Q78 246 128 246Q178 246 178 296V406Z" fill="#00417B"/>
+  <path d="M160 290L204 320L240 296" fill="none" stroke="#00417B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(130 208)"><circle r="36" fill="#FFFFFF" stroke="#00417B" stroke-width="6"/><path d="M-36 4A36 36 0 0 1 29 -22Q4 -5 -36 4Z" fill="#132B41" stroke="#132B41" stroke-width="6" stroke-linejoin="round"/></g>
+  <!-- el estudiante: escucha, las manos quietas, la mesa vacía -->
+  <path d="M468 406V316Q468 270 510 270Q552 270 552 316V406Z" fill="#3A93D0"/>
+  <g transform="translate(506 234) scale(-1 1)"><circle r="36" fill="#FFFFFF" stroke="#3A93D0" stroke-width="6"/><path d="M-36 4A36 36 0 0 1 29 -22Q4 -5 -36 4Z" fill="#1C4578" stroke="#1C4578" stroke-width="6" stroke-linejoin="round"/></g>
+  <rect x="316" y="372" width="248" height="12" rx="6" fill="#5BA3BD"/>
+  <path d="M500 312L470 358L412 362" fill="none" stroke="#2A7DB8" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- ══ Practicar la capacidad de analizar ══ -->
+  <path d="M654 406V316Q654 266 702 266Q750 266 750 316V406Z" fill="#3A93D0"/>
+  <g transform="translate(704 228)"><circle r="36" fill="#FFFFFF" stroke="#3A93D0" stroke-width="6"/><path d="M-36 4A36 36 0 0 1 29 -22Q4 -5 -36 4Z" fill="#1C4578" stroke="#1C4578" stroke-width="6" stroke-linejoin="round"/></g>
+  <rect x="636" y="372" width="498" height="12" rx="6" fill="#5BA3BD"/>
+  <!-- la hoja del caso -->
+  <g transform="rotate(4 980 220)">
+  <rect x="862" y="68" width="236" height="298" rx="10" fill="#E8EDF5" stroke="#00417B" stroke-width="4"/>
+  <g fill="#132B41" opacity=".25"><rect x="890" y="94" width="120" height="11" rx="5"/><rect x="890" y="306" width="180" height="10" rx="5"/><rect x="890" y="328" width="130" height="10" rx="5"/></g>
+  <g transform="translate(903 270) scale(1)"><rect x="0" y="-46" width="26" height="46" rx="4" fill="#84BCE4"/><rect x="40" y="-74" width="26" height="74" rx="4" fill="#84BCE4"/><rect x="80" y="-118" width="26" height="118" rx="4" fill="#00417B"/><rect x="120" y="-58" width="26" height="58" rx="4" fill="#84BCE4"/><path d="M-14 4H166" stroke="#132B41" stroke-width="5" stroke-linecap="round"/><path d="M93 22A34 82 0 1 1 127 -60" fill="none" stroke="#132B41" stroke-width="5.5" stroke-linecap="round"/></g>
+  </g>
+  <!-- el brazo y el lápiz: ÚNICO AMARILLO -->
+  <path d="M716 310L800 372L874 318" fill="none" stroke="#2A7DB8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(984 296) rotate(-97)"><path d="M0 0L-15 -38H15Z" fill="#F6E7D8"/><path d="M0 0L-6 -15H6Z" fill="#132B41"/><rect x="-15" y="-190" width="30" height="153" rx="4" fill="#F0B443"/></g>
+  <circle cx="878" cy="310" r="18" fill="#2A7DB8"/>
+</svg>

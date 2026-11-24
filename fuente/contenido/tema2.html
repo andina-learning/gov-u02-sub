@@ -1,0 +1,767 @@
+      <header class="ova-screen__head" data-reveal>
+        <!-- Eyebrow: el numeral del tema; título literal del DI (P211). Sin lead: el DI no trae propósito del
+             tema. Plan aprobado por el arquitecto (2026-11-23). -->
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Estructura y componentes del sílabo por competencias</h1>
+      </header>
+
+      <!-- Video (catálogo), enlace del Word. Llamado literal del Word; el título del iframe sale de la leyenda. -->
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Haga clic en el botón para reproducir el video.</p>
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <div class="ova-video ova-video--marco">
+          <div class="ova-video__frame" style="position:relative; padding-top:56.25%; border-radius:var(--r-lg); overflow:hidden; background:#000;">
+            <iframe src="https://player.vimeo.com/video/1248127809" title="¿Qué hace que un sílabo sea realmente un instrumento de diseño y no solo un documento que cumple con un formato?" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; inset:0; width:100%; height:100%;"></iframe>
+          </div>
+        </div>
+        <figcaption class="ova-figura__leyenda">
+          ¿Qué hace que un sílabo sea realmente un instrumento de diseño y no solo un documento que cumple con un formato?
+        </figcaption>
+      </figure>
+
+      <!-- Etiqueta sin rótulo de componente en el Word: subtítulo y cuerpo (K2, arquitecto, 2026-11-23) -->
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Importante</strong></h4>
+      <p data-reveal>Antes de redactar cualquier componente, conviene distinguir entre dato recibido, decisión docente y evidencia de verificación. El dato recibido puede provenir del plan de estudios o de un documento institucional; la decisión docente corresponde a cómo se concreta ese marco en la asignatura; y la evidencia de verificación permite comprobar que la decisión mantiene coherencia con la competencia, los resultados de aprendizaje y la evaluación. Esta distinción será especialmente importante al construir la sumilla, los resultados de aprendizaje y el sistema de evaluación.</p>
+
+      <section class="ua-seccion" id="tema2-1" data-reveal>
+        <h2 class="ua-seccion__titulo">2.1 Sumilla, competencias y resultados de aprendizaje</h2>
+      </section>
+
+      <!-- Banner · fondo claro (catálogo); el Word no trae negrilla: nada se enciende -->
+      <div class="ova-banner ova-banner--claro" data-reveal>
+        <p class="ova-banner__frase">¿Qué puede decidir realmente un docente cuando construye el sílabo de una asignatura?</p>
+      </div>
+
+      <p data-reveal>Conviene empezar por una distinción que evita problemas frecuentes en el diseño curricular: el sílabo no se construye completamente desde cero. Una parte de su contenido proviene del plan de estudios aprobado y de otros documentos institucionales; otra corresponde al ámbito de decisión docente. Confundir estas dos zonas puede producir problemas opuestos: Sílabos que modifican componentes institucionalmente establecidos o, por el contrario, documentos que se limitan a transcribir información sin convertirla en decisiones de enseñanza y evaluación. Diseñar bien implica reconocer qué información debe conservarse, qué elementos deben desarrollarse y dónde existe margen para tomar decisiones pedagógicas.</p>
+      <p data-reveal>En este proceso, las decisiones docentes requieren sustentarse en información pertinente y en conocimiento académico, especialmente cuando se busca que el currículo responda a las necesidades del contexto y a los propósitos formativos de la institución. En esta perspectiva, Sarmiento-Peralta et al. (2024) destacan la importancia de la investigación educativa en la práctica de los profesores universitarios y su relación con la responsabilidad social universitaria. Esta mirada permite comprender que diseñar el sílabo no consiste únicamente en organizar contenidos, sino en tomar decisiones pedagógicas fundamentadas y vinculadas con las necesidades del contexto educativo.</p>
+      <p data-reveal>La siguiente tabla permite visualizar esta diferencia:</p>
+
+      <!-- Tabla simple (catálogo) -->
+      <figure class="ova-apa-tabla" data-reveal>
+        <figcaption>
+          <span class="ova-apa-tabla__num"><strong>Tabla 4</strong></span>
+          <span class="ova-apa-tabla__titulo">Origen de cada componente del sílabo y margen de decisión docente</span>
+        </figcaption>
+        <div class="ova-tabla"><table>
+          <thead><tr><th><strong>Componente</strong></th><th><strong>Fuente del dato</strong></th><th><strong>Margen de decisión del docente</strong></th></tr></thead>
+          <tbody>
+          <tr><td>Datos generales: código, créditos, horas, prerrequisitos, ciclo, modalidad</td><td>Plan de estudios y reglamentos/documentos académicos institucionales.</td><td>No corresponde modificarlos unilateralmente; se transcriben y verifican.</td></tr>
+          <tr><td>Sumilla</td><td>Plan de estudios aprobado.</td><td>No corresponde modificar su contenido unilateralmente; cualquier cambio requiere el procedimiento institucional correspondiente.</td></tr>
+          <tr><td>Competencia del perfil a la que tributa y nivel de contribución</td><td>Matriz de tributación del plan.</td><td>Se toma como referencia institucional para el diseño de la asignatura.</td></tr>
+          <tr><td>Resultados de aprendizaje de la asignatura</td><td>Derivación a partir de la competencia, el nivel de contribución y las características de la asignatura.</td><td>Alto; constituye una decisión central del diseño, dentro del marco curricular.</td></tr>
+          <tr><td>Unidades, contenidos y secuencia</td><td>Derivación a partir de los resultados de aprendizaje y del alcance de la asignatura.</td><td>Alto, dentro de los límites establecidos por el plan y la sumilla.</td></tr>
+          <tr><td>Metodología</td><td>Decisión docente y orientaciones del modelo educativo institucional.</td><td>Alto, con coherencia respecto de los resultados y las evidencias.</td></tr>
+          <tr><td>Sistema de evaluación: evidencias, criterios, instrumentos y pesos</td><td>Decisión docente dentro de las normas institucionales de evaluación.</td><td>Alto en el diseño, acotado por las reglas institucionales.</td></tr>
+          <tr><td>Bibliografía y recursos</td><td>Selección docente y disponibilidad de fuentes académicas legítimas.</td><td>Alto, considerando pertinencia, vigencia, calidad y acceso.</td></tr>
+          <tr><td>Cronograma</td><td>Calendario académico y organización de la asignatura.</td><td>Alto, dentro de las semanas y condiciones establecidas para el periodo.</td></tr>
+          </tbody>
+        </table></div>
+      </figure>
+
+      <p data-reveal>La sumilla merece un tratamiento específico porque concentra un malentendido frecuente. En el plan de estudios, la sumilla presenta de manera sintética el propósito y el alcance de la asignatura, así como su naturaleza y los principales contenidos o ámbitos de formación que corresponden a ella, de acuerdo con la estructura curricular institucional. Su función es establecer una referencia común para la asignatura, independientemente del docente o de la sección en que se desarrolle.</p>
+      <p data-reveal>Por eso, cuando un docente considera necesario incorporar un contenido que excede ese alcance, no corresponde modificar directamente la sumilla: la situación debe ser revisada mediante los mecanismos institucionales establecidos para la actualización curricular.</p>
+      <p data-reveal>Esta distinción también protege la coherencia entre diferentes secciones de una misma asignatura. Si cada docente pudiera modificar libremente el propósito o el alcance definido en la sumilla, estudiantes que cursan la misma asignatura podrían recibir experiencias formativas sustancialmente diferentes. La autonomía docente se ejerce, por tanto, dentro de un marco curricular previamente establecido: el docente toma decisiones sobre cómo enseñar, cómo organizar las experiencias y cómo evaluar, pero esas decisiones deben guardar correspondencia con aquello que la asignatura está llamada a desarrollar.</p>
+
+      <!-- Pestañas (catálogo), con icono como pide la Nota del Word. «Pestaña N» no se muestra. EDITORIAL · los iconos son decorativos. -->
+      <h3 class="ova-rotulo" data-reveal><strong>Ahora bien, la sumilla no determina por sí sola todo lo que ocurrirá en el aula. Su función es delimitar el territorio formativo.</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Seleccione cada pestaña para ampliar la información.</p>
+      <div class="ova-tabs ova-tabs--pildoras" data-reveal>
+        <div class="ova-tabs__nav">
+          <button class="ova-tabs__btn is-active"><iconify-icon icon="mdi:link-variant"></iconify-icon> <strong>Coherencia de resultados</strong></button>
+          <button class="ova-tabs__btn"><iconify-icon icon="mdi:tune-variant"></iconify-icon> <strong>Ajuste ante desajustes</strong></button>
+        </div>
+        <div class="ova-tabs__panels">
+          <div class="ova-tabs__panel is-active"><p>Los resultados de aprendizaje permiten precisar qué podrá hacer el estudiante dentro de ese territorio. Por eso, una prueba de coherencia consiste en revisar si los resultados de aprendizaje son pertinentes respecto del alcance declarado por la asignatura y si los contenidos seleccionados contribuyen efectivamente a desarrollarlos.</p></div>
+          <div class="ova-tabs__panel"><p>Si aparece un desajuste persistente —por ejemplo, un resultado que exige desempeños claramente ajenos al propósito de la asignatura—, conviene revisar primero su relación con el plan de estudios y la matriz de tributación antes de intentar resolverlo únicamente desde el sílabo.</p></div>
+        </div>
+      </div>
+
+      <!-- Comparativo (catálogo), neutro -->
+      <h3 class="ova-rotulo" data-reveal><strong>La relación entre competencia y resultado de aprendizaje requiere una segunda precisión:</strong></h3>
+      <div class="ova-vs" data-reveal>
+        <div class="ova-vs__card">
+          <span class="ova-vs__card-tag"><strong>Competencia</strong></span>
+          <p>La competencia del perfil de egreso expresa un desempeño amplio que el estudiante desarrolla a lo largo del programa.</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <span class="ova-vs__card-tag"><strong>Resultado de aprendizaje</strong></span>
+          <p>El resultado de aprendizaje concreta aquello que puede esperarse de una asignatura en función de su contribución.</p>
+        </div>
+      </div>
+
+      <p data-reveal>Por esta razón, una misma competencia puede aparecer vinculada con varias asignaturas y dar lugar a resultados de aprendizaje diferentes. Lo que cambia no es la competencia de referencia, sino el tipo, nivel y complejidad del aporte que realiza cada asignatura.</p>
+      <p data-reveal>La matriz de tributación resulta entonces un insumo indispensable. Si una asignatura está ubicada en un nivel de inicio, los resultados y las evidencias deberán ser coherentes con esa condición. Si su contribución corresponde al desarrollo, será razonable esperar desempeños con mayor complejidad y progresiva autonomía. Cuando una asignatura participa en el logro de la competencia, las evidencias deberán permitir valorar el desempeño correspondiente al nivel de contribución definido institucionalmente.</p>
+      <p data-reveal>Esta lectura evita dos errores frecuentes: exigir en una asignatura inicial un desempeño que todavía no corresponde a su nivel, o diseñar una asignatura avanzada con tareas demasiado elementales para la contribución que se espera de ella.</p>
+      <p data-reveal>Sobre los resultados de aprendizaje, la unidad 1 ya estableció su diferencia respecto de la competencia y revisó los elementos que permiten formularlos de manera observable. En esta unidad interesa avanzar un paso más: comprobar si la formulación es suficientemente precisa para orientar <strong>la evidencia, la metodología y la evaluación.</strong> Un resultado bien formulado no solo indica qué se espera que el estudiante haga; también debe permitir inferir qué tipo de experiencia necesitará para desarrollarlo y qué evidencia podría utilizarse posteriormente para verificarlo.</p>
+      <p data-reveal>Para profundizar en la relación entre el aprendizaje, la evidencia y la evaluación, revise el siguiente recurso:</p>
+
+      <!-- Video (catálogo), enlace del Word. Llamado literal del Word; el título del iframe sale de la leyenda. -->
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Haga clic en el botón para reproducir el video.</p>
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <div class="ova-video ova-video--marco">
+          <div class="ova-video__frame" style="position:relative; padding-top:56.25%; border-radius:var(--r-lg); overflow:hidden; background:#000;">
+            <iframe src="https://www.youtube.com/embed/V78CxbymJXU" title="Sesión 2: Evaluación para el Aprendizaje" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; inset:0; width:100%; height:100%;"></iframe>
+          </div>
+        </div>
+        <figcaption class="ova-figura__leyenda">
+          <strong>Fuente:</strong> Centro para la Excelencia en el Aprendizaje. (2019, 21 de junio). <em>Sesión 2: Evaluación para el Aprendizaje</em> [Video]. YouTube.
+        </figcaption>
+      </figure>
+
+      <p data-reveal>Identifique cómo la evaluación puede aportar evidencias sobre el aprendizaje alcanzado y orientar la retroalimentación del estudiante.</p>
+
+      <!-- Bloque destacado - simple (catálogo) -->
+      <div class="ova-destacado ova-destacado--sin-icono" data-reveal>
+        <div>
+          <h4 class="ova-destacado__titulo"><strong>Para compartir en el foro</strong></h4>
+          <p>Publique su respuesta a la pregunta planteada después de revisar el video. Luego, lea las intervenciones de sus compañeros y comente al menos dos aportes, incorporando una idea, argumento o ejemplo que permita ampliar la reflexión.</p>
+        </div>
+      </div>
+
+      <p data-reveal>No existe un número universal de resultados de aprendizaje que pueda aplicarse a todas las asignaturas. Su cantidad debe responder al:</p>
+
+      <!-- Imagen con leyenda (catálogo) · DESVIACIÓN DEL DI: el Word rotula «Figura» (decisión del arquitecto
+           2026-11-23, como gov-u01-dcc). Texto alternativo oficial. -->
+      <figure class="ova-figura ova-figura--plana ova-figura--desliza" data-reveal>
+        <div class="ova-figura__hero ova-ampliada__lienzo">
+          <img src="assets/img/curso/03_fig_curriculoyformacionporcompetenciaseneducacionsuperior.webp"
+               alt="Cinco factores conectados: alcance del curso, nivel de contribución de la competencia, semanas, créditos y horas disponibles, para poder desarrollar y evaluar los desempeños declarados." />
+        </div>
+        <figcaption class="ova-figura__leyenda">
+          <strong>Figura 3.</strong> <em>Cómo determinar la cantidad de resultados de aprendizaje.</em>
+        </figcaption>
+      </figure>
+
+      <!-- Comparativo (catálogo), neutro -->
+      <h3 class="ova-rotulo" data-reveal><strong>Conjunto amplio o reducido</strong></h3>
+      <div class="ova-vs" data-reveal>
+        <div class="ova-vs__card">
+          <span class="ova-vs__card-tag"><strong>Conjunto amplio</strong></span>
+          <p>Un conjunto demasiado amplio puede fragmentar el diseño y dificultar la evaluación.</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <span class="ova-vs__card-tag"><strong>Conjunto reducido</strong></span>
+          <p>Uno demasiado reducido puede reunir desempeños diferentes bajo formulaciones excesivamente generales.</p>
+        </div>
+      </div>
+
+      <p data-reveal>La pregunta no es, entonces, “¿cuántos resultados debo escribir?”, sino “¿cuántos resultados necesito para representar de manera manejable y verificable lo que esta asignatura debe aportar?”.</p>
+      <p data-reveal>La calibración consiste en verificar que el nivel de exigencia del resultado corresponde al nivel de contribución asignado en la matriz y al momento formativo de la asignatura. No basta con seleccionar un verbo aparentemente complejo. Es necesario preguntarse qué deberá hacer realmente el estudiante, con qué grado de autonomía, en qué condiciones y mediante qué evidencia podrá demostrarse ese desempeño.</p>
+      <p data-reveal>Un verbo como analizar, por ejemplo, pierde valor como indicador de aprendizaje si la única evidencia consiste en reconocer definiciones o repetir información. La exigencia declarada debe poder observarse posteriormente en las experiencias de aprendizaje y en las evidencias de evaluación.</p>
+
+      <!-- Tarjetas con icono - izquierda (catálogo). «Tarjeta N» no se muestra. EDITORIAL · los iconos son decorativos. -->
+      <h3 class="ova-rotulo" data-reveal><strong>Ejemplo aplicado</strong></h3>
+      <div class="ova-tarjetas" data-reveal>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:alert-decagram-outline"></iconify-icon></div>
+            <h4><strong>Limitación del concepto</strong></h4>
+            <p>Suponga que una asignatura de Ingeniería Industrial contribuye al desarrollo de la competencia relacionada con la gestión de procesos. Un resultado como “comprende los conceptos de gestión de calidad” puede orientar hacia actividades de estudio y verificación conceptual, pero ofrece poca información sobre el desempeño profesional esperado.</p>
+          </div>
+        </div>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:bullseye-arrow"></iconify-icon></div>
+            <h4><strong>Precisión del desempeño</strong></h4>
+            <p>Si el nivel de contribución de la asignatura requiere que el estudiante analice información y tome decisiones, sería necesario formular un resultado que haga visible ese desempeño, por ejemplo: “Analiza indicadores de calidad de un proceso productivo y sustenta decisiones de mejora a partir de la información disponible”. La diferencia no está solamente en cambiar comprende por analiza; está en precisar qué analiza, para qué y qué desempeño deberá demostrar.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>Este ejemplo permite aplicar una comprobación sencilla: si usted lee el resultado de aprendizaje, ¿puede anticipar qué tendría que hacer el estudiante para demostrarlo? Si la respuesta es no, probablemente el resultado todavía es demasiado general. Si puede anticiparlo, el siguiente paso es comprobar que la actividad de aprendizaje ofrece una oportunidad real para practicar ese desempeño y que la evidencia permitirá valorarlo con criterios observables.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), icono de la Nota del Word -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--importante">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:alert-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Importante</strong></h4>
+            <p>Tampoco conviene asumir que una formulación técnicamente correcta garantiza por sí sola un buen resultado. El resultado debe comprobarse dentro del sistema completo de diseño. Si no puede desarrollarse en el tiempo disponible, si no corresponde al nivel de contribución, si no puede observarse mediante una evidencia pertinente o si exige contenidos que exceden el alcance de la asignatura, debe revisarse antes de avanzar hacia la metodología y la evaluación.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Etiqueta sin rótulo de componente en el Word: subtítulo y cuerpo (K2, arquitecto, 2026-11-23) -->
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Criterio de aceptación</strong></h4>
+      <p data-reveal>Antes de avanzar al diseño de las unidades y del sistema de evaluación, verifique que cada resultado de aprendizaje:</p>
+
+      <!-- Lista numerada con icono (catálogo). EDITORIAL · los iconos son decorativos. -->
+      <ol class="ova-numerada ova-numerada--icono" data-reveal>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">01</span><iconify-icon class="ova-numerada__icono" icon="mdi:link-variant"></iconify-icon></div>
+          <p><strong>Relación directa.</strong> Se relaciona directamente con una competencia y con el nivel de contribución asignado a la asignatura.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">02</span><iconify-icon class="ova-numerada__icono" icon="mdi:arrow-expand-horizontal"></iconify-icon></div>
+          <p><strong>Alcance.</strong> Es pertinente respecto del alcance definido por la sumilla.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">03</span><iconify-icon class="ova-numerada__icono" icon="mdi:eye-check-outline"></iconify-icon></div>
+          <p><strong>Desempeño.</strong> Describe un desempeño que puede observarse o verificarse mediante una evidencia.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">04</span><iconify-icon class="ova-numerada__icono" icon="mdi:clock-outline"></iconify-icon></div>
+          <p><strong>Condiciones.</strong> Puede desarrollarse dentro del tiempo, los créditos y las condiciones académicas disponibles.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">05</span><iconify-icon class="ova-numerada__icono" icon="mdi:puzzle-outline"></iconify-icon></div>
+          <p><strong>Coherencia.</strong> Permite derivar experiencias de aprendizaje y criterios de evaluación coherentes.</p>
+        </li>
+      </ol>
+
+      <section class="ua-seccion" id="tema2-2" data-reveal>
+        <h2 class="ua-seccion__titulo">2.2 Metodología y sistema de evaluación</h2>
+      </section>
+
+      <p data-reveal>¿Cómo puede saber usted si la metodología de una asignatura realmente prepara al estudiante para demostrar los resultados de aprendizaje que se han declarado?</p>
+      <p data-reveal>En los sílabos, uno de los componentes que con frecuencia queda formulado de manera genérica es la metodología. Aparecen expresiones como:</p>
+
+      <!-- Imagen con leyenda (catálogo) · DESVIACIÓN DEL DI: el Word rotula «Figura» (decisión del arquitecto
+           2026-11-23, como gov-u01-dcc). Texto alternativo oficial. -->
+      <figure class="ova-figura ova-figura--plana ova-figura--desliza" data-reveal>
+        <div class="ova-figura__hero ova-ampliada__lienzo">
+          <img src="assets/img/curso/04_fig_curriculoyformacionporcompetenciaseneducacionsuperior.webp"
+               alt="Cinco opciones metodológicas conectadas por flechas, con una flecha final abierta: clase magistral, trabajo en equipo, estudio de casos, aprendizaje colaborativo y metodologías activas." />
+        </div>
+        <figcaption class="ova-figura__leyenda">
+          <strong>Figura 4.</strong> <em>Planteamiento genérico de una metodología.</em>
+        </figcaption>
+      </figure>
+
+      <p data-reveal>Pero estas denominaciones, por sí solas, no permiten saber qué hará el estudiante, cómo se desarrollará el trabajo ni qué relación existe entre esas actividades y los resultados de aprendizaje. Una metodología útil no consiste en enumerar métodos; debe mostrar cómo se organizará la experiencia de aprendizaje para que el estudiante pueda practicar los desempeños que posteriormente tendrá que demostrar.</p>
+
+      <!-- Imagen con puntos interactivos (catálogo) · 01_inf del diseñador. Textos y llamado literales del Word. Texto
+           alternativo oficial. En celular se ve el signo centrado, sin deslizar (arquitecto, 2026-11-23). -->
+      <h3 class="ova-rotulo" data-reveal><strong>Una declaración metodológica pertinente responde, al menos, tres preguntas:</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Pase el cursor sobre cada punto para ampliar la información.</p>
+      <div class="ova-hotspots ova-hotspots--figura ova-hotspots--centrada" data-reveal>
+        <div class="ova-hotspots__img">
+          <img src="assets/img/curso/01_inf_curriculoyformacionporcompetenciaseneducacionsuperior.webp" alt="Signo de interrogación formado por segmentos en tonos de azul con tres círculos numerados, que termina en un segmento amarillo y un punto del mismo color." />
+          <div class="ova-hotspot" style="left:39.3%; top:26.8%;"><div class="ova-hotspot__pulse"></div><div class="ova-hotspot__dot">1</div><div class="ova-hotspot__tooltip">Pregunta 1 · <strong>Actividades estudiante</strong><br>¿Qué hará el estudiante de manera recurrente durante el periodo?</div></div>
+          <div class="ova-hotspot" style="left:50.8%; top:10.6%;"><div class="ova-hotspot__pulse"></div><div class="ova-hotspot__dot">2</div><div class="ova-hotspot__tooltip">Pregunta 2 · <strong>Distribución de trabajo</strong><br>¿Cómo se distribuye ese trabajo entre los momentos sincrónicos y asincrónicos?</div></div>
+          <div class="ova-hotspot" style="left:60%; top:29.9%;"><div class="ova-hotspot__pulse"></div><div class="ova-hotspot__dot">3</div><div class="ova-hotspot__tooltip">Pregunta 3 · <strong>Acompañamiento</strong><br>¿Cómo recibirá acompañamiento y retroalimentación?</div></div>
+        </div>
+      </div>
+
+      <p data-reveal>La primera señala: “Se emplearán metodologías activas, el aprendizaje colaborativo y el estudio de casos, promoviendo la participación del estudiante”. La segunda precisa: “Cada semana el estudiante analiza un caso con datos del sector, formula una decisión y la sustenta por escrito; la sesión sincrónica se destina a contrastar decisiones entre pares y recibir retroalimentación del docente; el trabajo asincrónico se dedica al estudio del contenido base y a la elaboración de las entregas”. La segunda permite anticipar mejor el trabajo, relacionarlo con los resultados y verificar si las actividades realmente ofrecen oportunidades para desarrollar los desempeños esperados.</p>
+      <p data-reveal>En una asignatura virtual, esta precisión resulta todavía más importante porque una parte considerable del aprendizaje ocurre fuera del encuentro sincrónico. En esta maestría, la asignatura contempla 2 horas sincrónicas y 9 horas asincrónicas por semana, por lo que el diseño metodológico debe otorgar una función concreta a ambos espacios.</p>
+
+      <!-- Tarjetas que giran (catálogo). Llamado literal del Word. «Tarjeta N», «Frente:» y «Reverso:» no se muestran. -->
+      <p class="ova-etiqueta ova-etiqueta--acento" data-reveal><iconify-icon icon="mdi:rotate-3d-variant"></iconify-icon> Ejemplo en una asignatura virtual</p>
+      <h3 class="ova-rotulo" data-reveal><strong>Diseño metodológico para encuentros sincrónicos o asincrónicos</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Toca cada tarjeta para ampliar la información.</p>
+      <div class="ova-giros ova-giros--con-aire" data-reveal>
+        <button type="button" class="ova-giro" aria-pressed="false">
+          <span class="ova-giro__cara ova-giro__frente">
+            <span class="ova-giro__num">01</span>
+            <span class="ova-giro__titulo">Sincrónico</span>
+            <span class="ova-giro__pista"><iconify-icon icon="mdi:rotate-3d-variant"></iconify-icon> Toque para girar</span>
+          </span>
+          <span class="ova-giro__cara ova-giro__dorso">
+            <span class="ova-giro__texto">Puede utilizarse para discutir decisiones, contrastar interpretaciones, resolver dificultades complejas, realizar demostraciones o recibir retroalimentación</span>
+          </span>
+        </button>
+        <button type="button" class="ova-giro" aria-pressed="false">
+          <span class="ova-giro__cara ova-giro__frente">
+            <span class="ova-giro__num">02</span>
+            <span class="ova-giro__titulo">Asincrónico</span>
+            <span class="ova-giro__pista"><iconify-icon icon="mdi:rotate-3d-variant"></iconify-icon> Toque para girar</span>
+          </span>
+          <span class="ova-giro__cara ova-giro__dorso">
+            <span class="ova-giro__texto">Debe permitir estudiar, practicar, analizar información, producir evidencias y avanzar de manera autónoma.</span>
+          </span>
+        </button>
+      </div>
+
+      <p data-reveal>No se trata de dividir mecánicamente las horas, sino de asignar a cada modalidad aquello que mejor contribuye al aprendizaje esperado.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), icono de la Nota del Word -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--alerta">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:alert-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Para tener en cuenta</strong></h4>
+            <p>El trabajo asincrónico también necesita diseño. Indicar simplemente “estudio independiente” o “revisión de lecturas” deja sin precisar qué deberá hacer el estudiante con esa información. Una orientación más útil identifica la acción esperada y, cuando sea pertinente, un producto intermedio: analizar una lectura mediante preguntas de contraste, resolver un caso, construir una matriz, formular una decisión, elaborar un borrador o revisar una evidencia con una lista de criterios. El producto no tiene que ser necesariamente calificado; puede funcionar como evidencia de avance y como insumo para la retroalimentación.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>La metodología debe guardar una relación directa con el desempeño esperado. Si el resultado exige analizar y tomar decisiones, las experiencias deben ofrecer oportunidades para analizar información, comparar alternativas y justificar decisiones. Si exige diseñar un producto profesional, el estudiante necesita espacios para planificar, elaborar versiones parciales, recibir retroalimentación y mejorar el producto. Si exige sustentar, no basta con leer sobre argumentación: debe existir una oportunidad concreta para construir y defender una posición con criterios definidos. Esta correspondencia permite pasar de una metodología declarada a una metodología verificable.</p>
+
+      <!-- Pestañas (catálogo), con icono como pide la Nota del Word. «Pestaña N» no se muestra. EDITORIAL · los iconos son decorativos. -->
+      <h3 class="ova-rotulo" data-reveal><strong>Sistema de evaluación</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Seleccione cada pestaña para ampliar la información.</p>
+      <div class="ova-tabs ova-tabs--pildoras" data-reveal>
+        <div class="ova-tabs__nav">
+          <button class="ova-tabs__btn is-active"><iconify-icon icon="mdi:target"></iconify-icon> <strong>Alcance de los RA</strong></button>
+          <button class="ova-tabs__btn"><iconify-icon icon="mdi:lightbulb-outline"></iconify-icon> <strong>Ejemplo</strong></button>
+          <button class="ova-tabs__btn"><iconify-icon icon="mdi:source-branch"></iconify-icon> <strong>Toma de decisiones</strong></button>
+        </div>
+        <div class="ova-tabs__panels">
+          <div class="ova-tabs__panel is-active"><p>El sistema de evaluación constituye otro componente central del sílabo porque concreta cómo se determinará si los resultados de aprendizaje fueron alcanzados. Biggs ha señalado que, desde la perspectiva del estudiante, aquello que se evalúa influye fuertemente en aquello a lo que dedica su atención y esfuerzo. Por ello, existe un riesgo de desalineamiento cuando el sílabo declara determinados desempeños, pero concentra la valoración en actividades que exigen otro tipo de aprendizaje.</p></div>
+          <div class="ova-tabs__panel"><p>Si se declara que el estudiante debe interpretar información y sustentar decisiones, pero la mayor parte de la calificación proviene de pruebas de reconocimiento de conceptos, la evaluación no estará recogiendo adecuadamente el desempeño declarado.</p></div>
+          <div class="ova-tabs__panel"><p>Diseñar el sistema de evaluación implica tomar decisiones relacionadas entre sí: qué evidencias se recogerán, qué criterios permitirán valorarlas, en qué momento se recogerán y qué peso tendrá cada una dentro de la calificación, de acuerdo con las normas institucionales. Estas decisiones conviene organizarlas antes de cerrar el cronograma, porque el momento de evaluación afecta las oportunidades de práctica, retroalimentación y mejora que tendrá el estudiante.</p></div>
+        </div>
+      </div>
+
+      <!-- Tabla simple (catálogo) -->
+      <figure class="ova-apa-tabla ova-apa-tabla--ancha" data-reveal>
+        <figcaption>
+          <span class="ova-apa-tabla__num"><strong>Tabla 5</strong></span>
+          <span class="ova-apa-tabla__titulo">Matriz de evaluación del sílabo: ejemplo para una asignatura virtual</span>
+        </figcaption>
+        <div class="ova-tabla"><table>
+          <thead><tr><th><strong>Resultado de aprendizaje</strong></th><th><strong>Evidencia</strong></th><th><strong>Instrumento</strong></th><th><strong>Momento</strong></th><th><strong>Peso</strong></th></tr></thead>
+          <tbody>
+          <tr><td>RA1. Interpreta indicadores del proceso productivo identificando desviaciones respecto del estándar.</td><td>Informe breve de interpretación de un tablero de indicadores.</td><td>Lista de cotejo con criterios de precisión e interpretación.</td><td>Semana 3</td><td>15 %</td></tr>
+          <tr><td>RA2. Diagnostica problemas de calidad en un proceso real priorizándolos con criterios técnicos y económicos.</td><td>Diagnóstico con priorización justificada.</td><td>Rúbrica analítica de cuatro criterios.</td><td>Semana 5</td><td>25 %</td></tr>
+          <tr><td>RA3. Diseña un plan de mejora con metas, responsables, recursos e indicadores de verificación.</td><td>Plan de mejora con memoria de decisiones.</td><td>Rúbrica analítica de cinco criterios.</td><td>Semana 7</td><td>35 %</td></tr>
+          <tr><td>RA4. Sustenta ante un interlocutor no especializado las decisiones técnicas adoptadas.</td><td>Exposición grabada de ocho minutos con sesión de preguntas.</td><td>Rúbrica de sustentación de tres criterios.</td><td>Semana 8</td><td>25 %</td></tr>
+          <tr><td><strong>Total</strong></td><td></td><td></td><td></td><td><strong>100 %</strong></td></tr>
+          </tbody>
+        </table></div>
+        <p class="ova-apa-tabla__nota"><strong>Nota.</strong> Los pesos son ilustrativos. Su distribución debe responder a la importancia de cada evidencia para valorar los resultados de aprendizaje y a las condiciones institucionales de evaluación. El ejemplo pertenece al contenido temático y no constituye una actividad evaluable de la presente asignatura.</p>
+      </figure>
+
+      <!-- P399: la frase «Estos controles…» viene dos veces en el Word (ERRORES-ORIGEN F9); literal. -->
+      <p data-reveal>Revise dos controles fundamentales de esta matriz. El primero es la cobertura: cada resultado de aprendizaje que se pretende valorar mediante la evaluación sumativa tiene una o más evidencias asociadas. El segundo es la trazabilidad: cada evidencia principal puede relacionarse con uno o más resultados de aprendizaje y, posteriormente, con criterios que permitan valorar el desempeño. Estos controles permiten detectar rápidamente si existe algún resultado declarado que quedó sin evidencia o si se incluyó una evaluación que no tiene una función clara dentro del diseño. Estos controles permiten detectar rápidamente si existe algún resultado declarado que quedó sin evidencia o si se incluyó una evaluación que no tiene una función clara dentro del diseño.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), icono de la Nota del Word -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--importante">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:alert-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Importante</strong></h4>
+            <p>No todas las evaluaciones cumplen la misma función. Conviene distinguir entre evaluación diagnóstica, formativa y sumativa. La diagnóstica permite reconocer saberes previos y necesidades al inicio o antes de una experiencia; por su naturaleza, puede utilizarse sin generar calificación. La formativa acompaña el proceso y proporciona información para mejorar el desempeño antes de una valoración final. La sumativa permite valorar el nivel de logro alcanzado y puede contribuir a la calificación de acuerdo con las reglas institucionales. La diferencia no está solamente en cuándo se aplica, sino en para qué se utiliza la información obtenida.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>La retroalimentación adquiere especial importancia dentro de esta secuencia. Si una evidencia de alto peso exige un desempeño complejo, el estudiante debería haber tenido previamente oportunidades para practicar aspectos relevantes y recibir información que le permita corregirlos. De lo contrario, la primera vez que enfrenta el desempeño completo puede coincidir con la evaluación que define una parte importante de su calificación. Diseñar momentos de práctica y retroalimentación antes de las evidencias principales permite que la evaluación cumpla también una función formativa.</p>
+      <!-- Ilustración explicativa de cuerpo (catálogo): la primera vez es la evaluación (P406). EDITORIAL · el
+           texto alternativo no viene del DI. Sin pie (arquitecto, 2026-11-24). Guion en insumos/ILUSTRACIONES.md -->
+      <figure class="ova-ilustracion" data-reveal>
+        <img src="assets/img/curso/ilustracion-primera-vez-evaluacion.svg"
+             alt="Se abre el telón de un escenario: un estudiante aparece iluminado y presenta su trabajo en un panel. Frente al escenario, un docente, detrás de una mesa, sostiene una gran hoja de evaluación amarilla con un recuadro para la calificación." />
+      </figure>
+      <p data-reveal>Tampoco existe un número universal de evaluaciones que deba tener un sílabo. La cantidad depende de:</p>
+
+      <!-- Imagen con leyenda (catálogo) · DESVIACIÓN DEL DI: el Word rotula «Figura» (decisión del arquitecto
+           2026-11-23, como gov-u01-dcc). Texto alternativo oficial. -->
+      <figure class="ova-figura ova-figura--plana ova-figura--desliza" data-reveal>
+        <div class="ova-figura__hero ova-ampliada__lienzo">
+          <img src="assets/img/curso/05_fig_curriculoyformacionporcompetenciaseneducacionsuperior.webp"
+               alt="Cinco factores conectados: resultados de aprendizaje, duración del curso, naturaleza de las evidencias, carga de trabajo y capacidad real de ofrecer retroalimentación de calidad." />
+        </div>
+        <figcaption class="ova-figura__leyenda">
+          <strong>Figura 5.</strong> <em>Criterios para decidir la cantidad de evaluaciones.</em>
+        </figcaption>
+      </figure>
+
+      <p data-reveal>Un sistema con numerosas actividades calificadas de bajo peso puede generar una carga elevada de producción y corrección sin aportar necesariamente mejor información sobre el aprendizaje. En algunos casos, resulta más pertinente concentrar la calificación en un conjunto manejable de evidencias sustantivas y utilizar productos intermedios para practicar, recibir retroalimentación y mejorar antes de la valoración sumativa.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), icono de la Nota del Word -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--error">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:close-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Error frecuente</strong></h4>
+            <p>Construir primero las ponderaciones hasta llegar al 100 % y solo después preguntarse qué resultado de aprendizaje está evaluando cada actividad. El problema aparece cuando la suma aritmética es correcta, pero uno o más resultados no cuentan con evidencia suficiente. Para detectarlo, cruce la lista de resultados con la matriz de evaluación y pregunte: ¿qué evidencia permite afirmar que este resultado fue desarrollado y con qué criterios se valorará? Si no existe una respuesta clara, el sistema todavía no está alineado.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>Otro error consiste en utilizar un mismo instrumento para todo sin considerar la naturaleza del desempeño. Una lista de cotejo puede ser adecuada para verificar la presencia de elementos concretos en un producto o procedimiento; una rúbrica puede ser más pertinente cuando interesa valorar distintos niveles de calidad en un desempeño complejo; una prueba objetiva puede resultar útil para determinados aprendizajes conceptuales, pero no necesariamente para demostrar capacidades de análisis, creación, argumentación o resolución de problemas. El instrumento debe responder a aquello que se necesita observar, no al revés.</p>
+
+      <!-- Etiqueta sin rótulo de componente en el Word: subtítulo y cuerpo (K2, arquitecto, 2026-11-23) -->
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Criterio de aceptación</strong></h4>
+      <p data-reveal>Para verificar que el sistema de evaluación es coherente, compruebe que:</p>
+
+      <!-- Lista numerada con icono (catálogo). EDITORIAL · los iconos son decorativos. -->
+      <ol class="ova-numerada ova-numerada--icono" data-reveal>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">01</span><iconify-icon class="ova-numerada__icono" icon="mdi:file-document-check-outline"></iconify-icon></div>
+          <p><strong>Asociación de evidencias.</strong> Los resultados de aprendizaje que serán valorados mediante evaluación sumativa tienen evidencias asociadas.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">02</span><iconify-icon class="ova-numerada__icono" icon="mdi:eye-outline"></iconify-icon></div>
+          <p><strong>Desempeños declarados.</strong> Las evidencias permiten observar los desempeños declarados en los resultados.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">03</span><iconify-icon class="ova-numerada__icono" icon="mdi:star-check-outline"></iconify-icon></div>
+          <p><strong>Desempeño adecuado.</strong> Los criterios de evaluación permiten distinguir qué se considera un desempeño adecuado.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">04</span><iconify-icon class="ova-numerada__icono" icon="mdi:hammer-wrench"></iconify-icon></div>
+          <p><strong>Pertinencia.</strong> Los instrumentos seleccionados son pertinentes para la naturaleza de cada evidencia.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">05</span><iconify-icon class="ova-numerada__icono" icon="mdi:scale-balance"></iconify-icon></div>
+          <p><strong>Resultados y reglas.</strong> Los pesos responden a la importancia de las evidencias dentro del logro de los resultados y cumplen las reglas institucionales.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">06</span><iconify-icon class="ova-numerada__icono" icon="mdi:comment-check-outline"></iconify-icon></div>
+          <p><strong>Práctica y retroalimentación.</strong> Existen oportunidades de práctica y retroalimentación antes de las evidencias que concentran mayor responsabilidad en la valoración.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">07</span><iconify-icon class="ova-numerada__icono" icon="mdi:calendar-check-outline"></iconify-icon></div>
+          <p><strong>Viabilidad.</strong> El conjunto de evaluaciones es viable respecto del tiempo disponible para estudiantes y docentes.</p>
+        </li>
+      </ol>
+
+      <!-- Comparativo (catálogo), neutro -->
+      <h3 class="ova-rotulo" data-reveal><strong>Una última comprobación resulta especialmente útil:</strong></h3>
+      <div class="ova-vs" data-reveal>
+        <div class="ova-vs__card">
+          <span class="ova-vs__card-tag"><strong>Eliminar una evaluación</strong></span>
+          <p>Si eliminara del sílabo una evaluación determinada, ¿qué resultado de aprendizaje quedaría sin posibilidad de verificarse?</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <span class="ova-vs__card-tag"><strong>Eliminar un resultado de aprendizaje</strong></span>
+          <p>Y, en sentido contrario, si eliminara un resultado de aprendizaje, ¿qué evaluación dejaría de tener una función clara?</p>
+        </div>
+      </div>
+
+      <p data-reveal>Si ambas respuestas permiten establecer relaciones consistentes, el sistema presenta una trazabilidad que puede demostrarse y no solamente declararse.</p>
+      <p data-reveal>Con la metodología y la evaluación articuladas, el sílabo ya cuenta con dos componentes esenciales para convertir los resultados de aprendizaje en experiencias y evidencias concretas. El siguiente paso será precisar cómo se diseñan las evidencias y los criterios de evaluación para que permitan valorar el desarrollo de las competencias con suficiente claridad y pertinencia.</p>
+
+      <section class="ua-seccion" id="tema2-3" data-reveal>
+        <h2 class="ua-seccion__titulo">2.3 Diseño de evidencias y criterios de evaluación para el desarrollo de competencias</h2>
+      </section>
+
+      <!-- Banner · fondo oscuro (catálogo); el Word no trae negrilla: nada se enciende -->
+      <div class="ova-banner" data-reveal>
+        <p class="ova-banner__frase">¿Cómo puede saber usted que una evaluación realmente permite demostrar el desarrollo de una competencia y no solamente la retención de información?</p>
+      </div>
+
+      <p data-reveal>En una evaluación por competencias, la evidencia ocupa un lugar central porque permite observar qué hace el estudiante con lo que sabe. Por ello, diseñarla no consiste únicamente en definir un producto o una actividad, sino en precisar qué desempeño se espera observar, en qué situación se demostrará y qué criterios permitirán valorar su calidad. Esta decisión debe derivarse de los resultados de aprendizaje y guardar correspondencia con el nivel de contribución de la asignatura.</p>
+      <p data-reveal>Para profundizar en la importancia de fundamentar las decisiones educativas en evidencias, revise el siguiente recurso:</p>
+
+      <!-- Video (catálogo), enlace del Word. Llamado literal del Word; el título del iframe sale de la leyenda. -->
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Haga clic en el botón para reproducir el video.</p>
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <div class="ova-video ova-video--marco">
+          <div class="ova-video__frame" style="position:relative; padding-top:56.25%; border-radius:var(--r-lg); overflow:hidden; background:#000;">
+            <iframe src="https://www.youtube.com/embed/Qnwshcd6leA" title="09.- Educación basada en evidencias: ¿qué es y para qué sirve? | Temporada 3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; inset:0; width:100%; height:100%;"></iframe>
+          </div>
+        </div>
+        <figcaption class="ova-figura__leyenda">
+          <strong>Fuente:</strong> Mirador Universitario UNAM. (2021, 14 de octubre). <em>09.- Educación basada en evidencias: ¿qué es y para qué sirve? | Temporada 3</em> [Video]. YouTube.
+        </figcaption>
+      </figure>
+
+      <p data-reveal>Identifique cómo el uso de evidencias puede contribuir a sustentar las decisiones relacionadas con el aprendizaje y la evaluación.</p>
+
+      <!-- Etiqueta sin rótulo de componente en el Word: subtítulo y cuerpo (K2, arquitecto, 2026-11-23) -->
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Actividad de reflexión</strong></h4>
+      <p data-reveal>Después de revisar el video, formule una breve conclusión sobre el principal aporte de la educación basada en evidencias para la toma de decisiones en el ámbito educativo. Comparta su conclusión durante el encuentro sincrónico y participe en la conversación a partir de las ideas de sus compañeros.</p>
+
+      <p data-reveal>Una evidencia puede considerarse auténtica cuando propone al estudiante una situación que guarda relación significativa con problemas, decisiones, productos o actuaciones propios de su campo profesional. Wiggins y McTighe (2005) plantean que las tareas orientadas a la comprensión y la transferencia deben superar la simple reproducción de información y permitir que el estudiante utilice lo aprendido en situaciones que demanden aplicación, interpretación y toma de decisiones. Por ello, una tarea en la que el estudiante únicamente identifica una respuesta previamente establecida ofrece menos información sobre su capacidad de actuar que una situación en la que debe analizar datos, elegir entre alternativas y sustentar una decisión.</p>
+
+      <!-- Comparativo (catálogo), neutro -->
+      <h3 class="ova-rotulo" data-reveal><strong>Identifique el contraste:</strong></h3>
+      <div class="ova-vs" data-reveal>
+        <div class="ova-vs__card">
+          <span class="ova-vs__card-tag"><strong>Actividad de reproducción</strong></span>
+          <p>Puede solicitar que el estudiante enumere las etapas de un proceso y obtenga una calificación a partir de una clave de respuestas.</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <span class="ova-vs__card-tag"><strong>Evidencia orientada al desempeño</strong></span>
+          <p>Podría presentar un proceso con datos incompletos y solicitar que identifique un problema, valore alternativas y sustente la decisión adoptada.</p>
+        </div>
+      </div>
+
+      <p data-reveal>En el segundo caso, la evaluación permite observar no solamente si conoce los conceptos, sino cómo los utiliza frente a una situación determinada.</p>
+      <p data-reveal>La autenticidad tampoco equivale a complejidad ni a extensión. Una evidencia puede resolverse en una sesión y seguir siendo pertinente si exige aplicar conocimientos, tomar decisiones y justificar el resultado con criterios propios del campo. Del mismo modo, un trabajo extenso puede aportar poca información sobre el desempeño profesional si se limita a recopilar y organizar información. El criterio relevante no es cuánto ocupa la tarea, sino qué tipo de actuación permite observar.</p>
+      <p data-reveal>La investigación sobre evaluación auténtica ha propuesto analizar estas tareas desde diferentes dimensiones.</p>
+
+      <!-- Tarjetas que giran (catálogo). Llamado literal del Word. «Tarjeta N», «Frente:» y «Reverso:» no se muestran. -->
+      <p class="ova-etiqueta ova-etiqueta--acento" data-reveal><iconify-icon icon="mdi:rotate-3d-variant"></iconify-icon> Dimensiones de la evaluación auténtica</p>
+      <h3 class="ova-rotulo" data-reveal><strong>Villarroel et al. (2018), a partir de una revisión sistemática, destacan tres dimensiones especialmente útiles para el diseño:</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Toca cada tarjeta para ampliar la información.</p>
+      <div class="ova-giros ova-giros--con-aire" data-reveal>
+        <button type="button" class="ova-giro" aria-pressed="false">
+          <span class="ova-giro__cara ova-giro__frente">
+            <span class="ova-giro__num">01</span>
+            <span class="ova-giro__titulo">Realismo</span>
+            <span class="ova-giro__pista"><iconify-icon icon="mdi:rotate-3d-variant"></iconify-icon> Toque para girar</span>
+          </span>
+          <span class="ova-giro__cara ova-giro__dorso">
+            <span class="ova-giro__texto">Relacionado con la proximidad de la tarea a situaciones profesionales o de la vida real.</span>
+          </span>
+        </button>
+        <button type="button" class="ova-giro" aria-pressed="false">
+          <span class="ova-giro__cara ova-giro__frente">
+            <span class="ova-giro__num">02</span>
+            <span class="ova-giro__titulo">Desafío cognitivo</span>
+            <span class="ova-giro__pista"><iconify-icon icon="mdi:rotate-3d-variant"></iconify-icon> Toque para girar</span>
+          </span>
+          <span class="ova-giro__cara ova-giro__dorso">
+            <span class="ova-giro__texto">Asociado con la aplicación de procesos de pensamiento que superan la reproducción de información.</span>
+          </span>
+        </button>
+        <button type="button" class="ova-giro" aria-pressed="false">
+          <span class="ova-giro__cara ova-giro__frente">
+            <span class="ova-giro__num">03</span>
+            <span class="ova-giro__titulo">Juicio evaluativo</span>
+            <span class="ova-giro__pista"><iconify-icon icon="mdi:rotate-3d-variant"></iconify-icon> Toque para girar</span>
+          </span>
+          <span class="ova-giro__cara ova-giro__dorso">
+            <span class="ova-giro__texto">Relacionado con la capacidad del estudiante para reconocer y valorar la calidad de su propio trabajo.</span>
+          </span>
+        </button>
+      </div>
+
+      <p data-reveal>Estas dimensiones permiten revisar una evidencia antes de incorporarla al sílabo y preguntarse qué tan cercana es a la actuación que se espera desarrollar.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), icono de la Nota del Word -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--importante">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:alert-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Importante</strong></h4>
+            <p>El juicio evaluativo merece especial atención porque permite que el estudiante no dependa exclusivamente de la valoración del docente. Cuando conoce los criterios y tiene oportunidades para aplicarlos a su propio trabajo, puede identificar fortalezas, reconocer aspectos por mejorar y justificar cambios. Por esta razón, una evaluación orientada al desarrollo de competencias puede incorporar momentos de autoevaluación, revisión entre pares o análisis de ejemplos de trabajos de diferente nivel de logro, siempre que estas acciones tengan una función clara dentro del aprendizaje.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>Para efectos del diseño curricular, las evidencias pueden distinguirse en tres grandes tipos. Las <strong>evidencias de conocimiento</strong> permiten verificar los saberes conceptuales o procedimentales que sostienen una actuación. Las <strong>evidencias de producto</strong> valoran un resultado elaborado por el estudiante, como un informe, plan, diseño, proyecto o propuesta. Las <strong>evidencias de desempeño</strong> permiten observar directamente una actuación, como una sustentación, una demostración, la ejecución de un procedimiento o la resolución de una situación simulada. El <strong>portafolio,</strong> por su parte, puede funcionar como un dispositivo de integración que reúne diferentes productos y evidencias de proceso, permitiendo observar progresión, revisión y reflexión durante un periodo.</p>
+
+      <!-- Ruta en zigzag - con iconos (catálogo). «Paso N» no se muestra. EDITORIAL · los iconos son decorativos. -->
+      <h4 class="ova-rotulo" data-reveal><strong>La elección del tipo de evidencia depende del resultado de aprendizaje:</strong></h4>
+      <ol class="ova-ruta ova-ruta--texto ova-ruta--iconos" data-reveal>
+        <li class="ova-ruta__paso">
+          <span class="ova-ruta__num" aria-hidden="true"><iconify-icon icon="mdi:file-chart-outline"></iconify-icon></span>
+          <div class="ova-ruta__texto"><h4><strong>Si el resultado exige interpretar información</strong></h4><p>Puede ser pertinente un informe de análisis.</p></div>
+        </li>
+        <li class="ova-ruta__paso">
+          <span class="ova-ruta__num" aria-hidden="true"><iconify-icon icon="mdi:pencil-ruler-outline"></iconify-icon></span>
+          <div class="ova-ruta__texto"><h4><strong>Si exige diseñar una solución</strong></h4><p>Será necesario observar el producto y las decisiones que lo sustentan</p></div>
+        </li>
+        <li class="ova-ruta__paso">
+          <span class="ova-ruta__num" aria-hidden="true"><iconify-icon icon="mdi:clipboard-play-outline"></iconify-icon></span>
+          <div class="ova-ruta__texto"><h4><strong>Si exige ejecutar un procedimiento</strong></h4><p>La evidencia debe permitir observar la actuación.</p></div>
+        </li>
+      </ol>
+
+      <p data-reveal>Por ello, no conviene seleccionar primero el instrumento de evaluación y después intentar acomodar el resultado de aprendizaje. La pregunta debe seguir el orden del <em>backward design</em>: ¿qué debe demostrar el estudiante y qué evidencia permitiría observarlo de manera suficiente?</p>
+      <p data-reveal>Definida la evidencia, corresponde precisar los criterios con los que se valorará su calidad. Un criterio de evaluación expresa una dimensión relevante de la calidad del desempeño que será observada. Un descriptor de nivel especifica cómo se manifiesta esa dimensión cuando el desempeño alcanza diferentes grados de logro. Esta distinción es importante porque el criterio indica qué se valora, mientras que el descriptor permite precisar cómo se reconoce el nivel alcanzado.</p>
+
+      <!-- Tarjetas conectadas - oscura (catálogo). «Imagen sugerida» no se muestra: decide el icono de cada tarjeta. -->
+      <h3 class="ova-rotulo" data-reveal><strong>Condiciones de utilidad de un criterio</strong></h3>
+      <p data-reveal>Para que un criterio sea útil, debe cumplir tres condiciones:</p>
+      <div class="ova-tarjetas ova-tarjetas--conectadas" data-reveal>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:clipboard-check-outline"></iconify-icon></div>
+            <h4><strong>Debe ser unidimensional</strong></h4>
+            <p>Es decir, concentrarse en una dimensión de calidad y evitar mezclar aspectos diferentes en una misma formulación.</p>
+          </div>
+        </div>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:magnify"></iconify-icon></div>
+            <h4><strong>Debe ser observable</strong></h4>
+            <p>De manera que el evaluador pueda identificarlo en la evidencia y no dependa de impresiones generales.</p>
+          </div>
+        </div>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:anchor"></iconify-icon></div>
+            <h4><strong>Debe estar anclado</strong></h4>
+            <p>Evitando expresiones como “adecuadamente”, “correctamente” o “de manera pertinente” cuando no se explica qué significa alcanzar ese nivel.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>En su lugar, conviene utilizar cantidades, condiciones, relaciones, características observables o estándares propios de la disciplina.</p>
+      <p data-reveal>Por ejemplo, en un informe de diagnóstico de calidad, “elabora un informe correcto y completo” reúne demasiadas dimensiones y deja amplio margen de interpretación. Una formulación más verificable podría separar aspectos como la identificación de problemas, el sustento en datos y la justificación de la priorización. De esta manera, el estudiante puede comprender qué se espera y el docente dispone de referentes más claros para valorar el desempeño.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), icono de la Nota del Word -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--alerta">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:alert-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Para tener en cuenta</strong></h4>
+            <p>Un instrumento de evaluación requiere revisión antes de utilizarse de manera sistemática. La literatura sobre construcción y validación de instrumentos muestra que la revisión por expertos y el análisis de sus propiedades pueden contribuir a identificar problemas de claridad, pertinencia o consistencia. En la práctica docente, una revisión entre colegas del área puede utilizarse como control previo: permita que otro docente examine los criterios y aplíquelos a algunos trabajos de referencia para comprobar si permiten distinguir los niveles de desempeño que se pretende valorar. Esta revisión no sustituye un proceso formal de validación cuando este sea requerido por la institución o por una investigación, pero constituye una medida práctica de control de calidad.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>La Tabla 6 muestra cómo una decisión de evaluación puede derivarse progresivamente desde el resultado de aprendizaje hasta los criterios y descriptores.</p>
+
+      <!-- Tabla simple (catálogo) -->
+      <figure class="ova-apa-tabla ova-apa-tabla--angosta" data-reveal>
+        <figcaption>
+          <span class="ova-apa-tabla__num"><strong>Tabla 6</strong></span>
+          <span class="ova-apa-tabla__titulo">Del resultado de aprendizaje a la evidencia y sus criterios: ejemplo ilustrativo</span>
+        </figcaption>
+        <div class="ova-tabla"><table>
+          <thead><tr><th><strong>Elemento</strong></th><th><strong>Formulación</strong></th></tr></thead>
+          <tbody>
+          <tr><td>Resultado de aprendizaje</td><td>Diagnostica problemas de calidad en un proceso productivo real, priorizándolos con criterios técnicos y económicos.</td></tr>
+          <tr><td>Evidencia</td><td>Informe de diagnóstico de un proceso, con priorización justificada de los problemas detectados.</td></tr>
+          <tr><td>Criterio 1. Cobertura del diagnóstico</td><td>Identifica los problemas relevantes presentes en los datos proporcionados por el caso.</td></tr>
+          <tr><td>Criterio 2. Sustento en datos</td><td>Respalda cada problema identificado mediante información específica y pertinente del caso.</td></tr>
+          <tr><td>Criterio 3. Justificación de la priorización</td><td>Explica el orden de prioridad utilizando criterios técnicos y económicos explícitos.</td></tr>
+          <tr><td>Fragmento de descriptor del criterio 2</td><td><p><strong>Nivel alto:</strong> cada problema identificado se respalda con datos específicos y pertinentes del caso.</p><p><strong>Nivel intermedio:</strong> la mayoría de los problemas identificados se respalda con datos del caso, aunque algunos presentan sustento insuficiente.</p><p><strong>Nivel inicial:</strong> identifica problemas, pero el sustento se limita principalmente a afirmaciones generales o no establece una relación clara con los datos disponibles.</p></td></tr>
+          </tbody>
+        </table></div>
+        <p class="ova-apa-tabla__nota"><strong>Nota.</strong> El fragmento de descriptores se incluye con fines ilustrativos del contenido temático y no constituye un instrumento de evaluación de la presente asignatura.</p>
+        <p class="ova-apa-tabla__nota"><strong>Fuente:</strong> elaboración propia a partir de Wiggins y McTighe (2005) y de literatura sobre evaluación auténtica.</p>
+      </figure>
+
+      <p data-reveal>Revise la lógica de derivación:</p>
+
+      <!-- Imagen con leyenda (catálogo) · DESVIACIÓN DEL DI: el Word rotula «Figura» (decisión del arquitecto
+           2026-11-23, como gov-u01-dcc). Texto alternativo oficial. -->
+      <figure class="ova-figura ova-figura--plana ova-figura--desliza" data-reveal>
+        <div class="ova-figura__hero ova-ampliada__lienzo">
+          <img src="assets/img/curso/06_fig_curriculoyformacionporcompetenciaseneducacionsuperior.webp"
+               alt="Cuatro pasos conectados: el resultado de aprendizaje define el desempeño, la evidencia permite observarlo, los criterios establecen la calidad y los descriptores, los niveles de logro." />
+        </div>
+        <figcaption class="ova-figura__leyenda">
+          <strong>Figura 6.</strong> <em>Lógica de derivación.</em>
+        </figcaption>
+      </figure>
+
+      <p data-reveal>Esta secuencia evita construir una rúbrica desconectada del resultado de aprendizaje.</p>
+
+      <!-- Etiqueta sin rótulo de componente en el Word: subtítulo y cuerpo (K2, arquitecto, 2026-11-23) -->
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Para tener en cuenta</strong></h4>
+      <p data-reveal>En entornos virtuales, el diseño de evidencias requiere considerar también la integridad académica y la accesibilidad. Las tareas que solicitan únicamente producir textos generales sobre un tema pueden ser elaboradas con mayor facilidad mediante herramientas de inteligencia artificial generativa, por lo que ofrecen menos información sobre el proceso individual de aprendizaje si no se acompañan de otros elementos de verificación. Una alternativa consiste en diseñar tareas vinculadas con datos particulares, contextos específicos, decisiones justificadas o problemas que requieran interpretación, y complementarlas, cuando resulte pertinente, con evidencias de proceso como borradores, bitácoras, avances o sustentaciones breves.</p>
+
+      <p data-reveal>La accesibilidad también debe formar parte del diseño. Antes de establecer una evidencia, verifique que el estudiante pueda producirla con los recursos tecnológicos que la institución garantiza. Cuando una condición particular de acceso pueda constituir una barrera, pueden preverse alternativas equivalentes que permitan demostrar el mismo resultado de aprendizaje sin modificar el nivel de exigencia.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), icono de la Nota del Word -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--error">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:close-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Error frecuente</strong></h4>
+            <p>Un error frecuente consiste en publicar o definir los criterios después de aplicada la evaluación. Esto ocurre, por ejemplo, cuando el docente construye la rúbrica mientras revisa los trabajos y formula los criterios a partir de lo que encuentra en ellos. El problema es que el estudiante no tuvo la posibilidad de orientar su esfuerzo hacia los aspectos que serían valorados y el docente puede terminar aplicando referentes que no fueron comunicados previamente.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>Una forma sencilla de prevenirlo es entregar la consigna y los criterios de evaluación de manera conjunta. Antes de la entrega, el estudiante debería poder responder preguntas como: ¿qué debo demostrar?, ¿qué aspectos serán valorados?, ¿qué características debe tener un desempeño de calidad? Si no puede responderlas, es necesario revisar la claridad y disponibilidad de los criterios.</p>
+
+      <!-- Etiqueta sin rótulo de componente en el Word: subtítulo y cuerpo (K2, arquitecto, 2026-11-23) -->
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Criterio de aceptación</strong></h4>
+      <p data-reveal>Para verificar que una evidencia está bien diseñada, compruebe lo siguiente:</p>
+
+      <!-- Lista numerada con icono (catálogo). EDITORIAL · los iconos son decorativos. -->
+      <ol class="ova-numerada ova-numerada--icono" data-reveal>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">01</span><iconify-icon class="ova-numerada__icono" icon="mdi:eye-check-outline"></iconify-icon></div>
+          <p><strong>Desempeño.</strong> La tarea permite observar el desempeño declarado en uno o más resultados de aprendizaje.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">02</span><iconify-icon class="ova-numerada__icono" icon="mdi:cube-outline"></iconify-icon></div>
+          <p><strong>Concreción.</strong> La situación presenta condiciones, datos o productos suficientemente concretos para valorar la actuación esperada.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">03</span><iconify-icon class="ova-numerada__icono" icon="mdi:comment-text-outline"></iconify-icon></div>
+          <p><strong>Justificación.</strong> Cuando el resultado exige análisis o toma de decisiones, la evidencia permite observar y justificar esas decisiones.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">04</span><iconify-icon class="ova-numerada__icono" icon="mdi:format-list-checks"></iconify-icon></div>
+          <p><strong>Criterios.</strong> Los criterios son unidimensionales, observables y suficientemente precisos para distinguir la calidad del desempeño.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">05</span><iconify-icon class="ova-numerada__icono" icon="mdi:calendar-clock-outline"></iconify-icon></div>
+          <p><strong>Momento.</strong> Los criterios se comunican al estudiante junto con la consigna o antes de la realización de la evidencia.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">06</span><iconify-icon class="ova-numerada__icono" icon="mdi:hammer-wrench"></iconify-icon></div>
+          <p><strong>Selección de instrumento.</strong> El instrumento seleccionado corresponde a la naturaleza de la evidencia y al desempeño que se pretende valorar.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">07</span><iconify-icon class="ova-numerada__icono" icon="mdi:comment-check-outline"></iconify-icon></div>
+          <p><strong>Retroalimentación.</strong> Existe una oportunidad de retroalimentación antes de una evidencia de mayor responsabilidad, cuando la secuencia de aprendizaje lo permita.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">08</span><iconify-icon class="ova-numerada__icono" icon="mdi:clock-check-outline"></iconify-icon></div>
+          <p><strong>Compatibilidad.</strong> La exigencia de la evidencia es compatible con las horas de trabajo previstas y con los recursos disponibles.</p>
+        </li>
+        <li class="ova-numerada__item">
+          <div class="ova-numerada__marca" aria-hidden="true"><span class="ova-numerada__num">09</span><iconify-icon class="ova-numerada__icono" icon="mdi:link-variant"></iconify-icon></div>
+          <p><strong>Vinculación.</strong> La evidencia queda vinculada en el sílabo y en la matriz de trazabilidad con el resultado de aprendizaje correspondiente.</p>
+        </li>
+      </ol>
+
+      <p data-reveal>Antes de incorporar una evidencia al sílabo, realice una última comprobación: si un estudiante obtiene un desempeño satisfactorio en esta evidencia, ¿qué resultado de aprendizaje puede afirmar usted que ha demostrado y qué criterio le permite sostener esa afirmación? Si la respuesta no es clara, la evidencia o sus criterios todavía requieren ajuste.</p>
+      <p data-reveal>Con los componentes del sílabo construidos, queda una última operación: comprobar que los resultados de aprendizaje, las experiencias de aprendizaje y la evaluación se encuentren articulados y demanden un nivel de desempeño coherente. Esta verificación conduce al siguiente tema de la unidad: el alineamiento constructivo y la matriz de trazabilidad curricular.</p>
+
+      <!-- Relacionar (catálogo). Llamado literal; el Word no trae «Acierto» ni «Error»: los avisos los pone el motor. -->
+      <h3 class="ova-rotulo" data-reveal><strong>Origen de cada componente del sílabo y margen de decisión docente</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Haga clic en un componente del sílabo y después en el margen de decisión docente que le corresponde.</p>
+      <div class="ova-empar" data-reveal>
+        <div class="ova-empar__col">
+          <button class="ova-empar__item" data-ova-match="A">Sumilla</button>
+          <button class="ova-empar__item" data-ova-match="B">Resultados de aprendizaje</button>
+          <button class="ova-empar__item" data-ova-match="C">Unidades, contenidos y secuencia</button>
+          <button class="ova-empar__item" data-ova-match="D">Metodología</button>
+          <button class="ova-empar__item" data-ova-match="E">Bibliografía y recursos</button>
+          <button class="ova-empar__item" data-ova-match="F">Cronograma</button>
+        </div>
+        <div class="ova-empar__col">
+          <button class="ova-empar__item" data-ova-match="D">Se formula a partir de las orientaciones del modelo educativo institucional y el criterio pedagógico para la asignatura.</button>
+          <button class="ova-empar__item" data-ova-match="A">Se extrae de manera textual del plan de estudios aprobado por la institución.</button>
+          <button class="ova-empar__item" data-ova-match="F">Se organiza tomando como base el calendario académico oficial y la estructura de la asignatura.</button>
+          <button class="ova-empar__item" data-ova-match="B">Se derivan de la competencia, el nivel de contribución y las características propias del curso.</button>
+          <button class="ova-empar__item" data-ova-match="C">Se estructuran en función de los resultados de aprendizaje y del alcance temático de la asignatura.</button>
+          <button class="ova-empar__item" data-ova-match="E">Se conforma a partir de las fuentes académicas legítimas y disponibles para el desarrollo del curso.</button>
+        </div>
+      </div>
+
+<!-- ova:extras -->
+<style>
+  /* Estilo propio de esta pantalla (andina/gov-u02-sub · temas), como gov-u01-dcc, hasta KIT-022. No toca el
+     motor ni la piel. Plan y ajustes aprobados por el arquitecto (2026-11-23).
+     1. Las figuras del diseñador se deslizan en celular a 860 px (el corte cae dentro de una caja y se nota que
+        sigue) y llevan el indicio de desplazamiento del catálogo, el de las tablas (por eso su caja lleva
+        además .ova-ampliada__lienzo). En escritorio no cambian. */
+  .ova-figura--desliza { position: relative; }
+  .ova-figura--desliza .ova-figura__hero img { width: 100%; max-width: 100%; }
+  .ova-figura--desliza .ova-indicio { --ova-indicio-fondo-pieza: var(--bg-app); }
+  @media (max-width: 720px) {
+    .ova-figura--desliza .ova-figura__hero { overflow-x: auto; }
+    .ova-figura--desliza .ova-figura__hero img { width: 860px; min-width: 860px; max-width: none; height: auto; }
+  }
+  /* 2. El rótulo del comparativo, a 28 px de su pieza; su segunda etiqueta, en azul de marca (KIT-022 #7). */
+  .ova-rotulo + .ova-vs { margin-top: 28px !important; }
+  .ova-vs__card--alt .ova-vs__card-tag { color: var(--c-acento); }
+  /* 3. Aire parejo: etiquetas como subtítulo (K2) a 40 px arriba y 12 abajo; la ruta, algo más separada. */
+  h4.ova-subtitulo.ova-subtitulo--3 { margin: 40px 0 12px !important; }
+  .ova-rotulo + .ova-ruta { margin-top: 8px !important; }
+  .ova-ruta + p { margin-top: 16px !important; }
+  /* 4. Nota y Fuente de las tablas sin cursiva (pedido del cliente, 2026-11-23). */
+  .ova-apa-tabla__nota, .ova-apa-tabla__fuente { font-style: normal; }
+  /* 5. De gov-u01-dcc: destacado sin icono y pestañas apiladas en celular; tarjetas que giran con aire, dos columnas
+        y etiqueta en azul de marca. */
+  .ova-destacado--sin-icono { margin-top: 40px; }
+  .ova-etiqueta--acento { color: var(--c-acento); }
+  .ova-giros--con-aire { margin-bottom: 40px !important; }
+  @media (min-width: 721px) {
+    .ova-giros:has(> .ova-giro:nth-child(2):last-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  /* 6. 01_inf: en celular se ve el signo centrado, sin deslizar; el nombre de cada punto sigue en su línea, como en
+        el Word. Tabla 5 (cinco columnas) a 820 px y Tabla 6 (dos) sin ancho mínimo en celular. */
+  .ova-hotspots--centrada .ova-hotspot__tooltip strong { display: inline; }
+  @media (max-width: 720px) {
+    .ova-destacado--sin-icono { grid-template-columns: minmax(0, 1fr); }
+    .ova-tabs--pildoras .ova-tabs__nav { flex-direction: column; flex-wrap: nowrap; overflow: visible; align-items: stretch; }
+    .ova-tabs--pildoras .ova-tabs__btn { width: 100%; white-space: normal; text-align: left; justify-content: flex-start; }
+    .ova-hotspots--centrada { overflow: hidden !important; }
+    .ova-hotspots--centrada .ova-hotspots__img { width: 600px; min-width: 0 !important; margin-left: calc((100% - 600px) / 2); }
+    .ova-apa-tabla--ancha .ova-tabla table { min-width: 820px; }
+    .ova-apa-tabla--angosta .ova-tabla table { min-width: 0; }
+  }
+  /* 7. Revisión (arquitecto, 2026-11-24): el «100 %» de la Tabla 5 en una línea y el llamado a 22 px de las pestañas. */
+  .ova-apa-tabla--ancha td:last-child { white-space: nowrap; }
+  .ova-llamado + .ova-tabs { margin-top: 22px !important; }
+</style>

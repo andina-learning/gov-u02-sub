@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="Se abre el telón de un escenario: un estudiante aparece iluminado y presenta su trabajo en un panel. Frente al escenario, un docente, detrás de una mesa, sostiene una gran hoja de evaluación amarilla con un recuadro para la calificación.">
+  <!-- Ilustración de marca · Universidad Andina Virtual · gov-u02-sub · tema 2 (cuerpo)
+       Concepto (DI, P406): «la primera vez que enfrenta el desempeño completo puede coincidir con la evaluación que
+       define una parte importante de su calificación.»
+       Único amarillo: la hoja de evaluación. Sin texto. -->
+  <defs>
+    <linearGradient id="ilu-primera-vez-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E6F3FA"/>
+      <stop offset="55%" stop-color="#E8EDF5"/>
+      <stop offset="100%" stop-color="#F5F8FB"/>
+    </linearGradient>
+    <clipPath id="ilu-primera-vez-corte"><rect width="1200" height="440" rx="18"/></clipPath>
+    <filter id="ilu-primera-vez-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#132B41" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="440" rx="18" fill="url(#ilu-primera-vez-fondo)"/>
+  <g clip-path="url(#ilu-primera-vez-corte)">
+  <!-- el escenario -->
+  <rect x="60" y="30" width="720" height="334" fill="#FFFFFF" filter="url(#ilu-primera-vez-sombra)"/>
+  <rect x="60" y="30" width="720" height="334" fill="#D3E6F3"/>
+  <path d="M400 30H470L640 352H230Z" fill="#FFFFFF" opacity=".75"/>
+  <rect x="36" y="350" width="768" height="60" rx="8" fill="#5BA3BD"/><rect x="36" y="350" width="768" height="14" rx="7" fill="#84BCE4"/>
+  <!-- el panel: el desempeño completo -->
+  <path d="M262 290L240 350M392 290L414 350" stroke="#132B41" stroke-width="7" stroke-linecap="round"/>
+  <rect x="222" y="126" width="210" height="172" rx="10" fill="#FFFFFF" stroke="#00417B" stroke-width="5"/>
+  <g stroke="#132B41" stroke-width="5" fill="none"><path d="M327 168L268 214M327 168L386 214M268 214L300 264M386 214L354 264M268 214H386"/></g>
+  <g fill="#3A93D0"><circle cx="327" cy="166" r="18"/><circle cx="386" cy="214" r="15"/><circle cx="300" cy="264" r="13"/></g><g fill="#84C9BF"><circle cx="268" cy="214" r="15"/><circle cx="354" cy="264" r="13"/></g>
+  <!-- el estudiante -->
+  <g stroke="#132B41" stroke-width="22" stroke-linecap="round"><path d="M530 262V338M560 262V338"/></g>
+  <path d="M503 280V234Q503 188 545 188Q587 188 587 234V280Z" fill="#3A93D0"/>
+  <g transform="translate(549 150) scale(1 1)"><circle r="36" fill="#FFFFFF" stroke="#3A93D0" stroke-width="6"/><path d="M-36 4A36 36 0 0 1 29 -22Q4 -5 -36 4Z" fill="#1C4578" stroke="#1C4578" stroke-width="6" stroke-linejoin="round"/></g>
+
+  <path d="M524 226L484 254L444 226" fill="none" stroke="#2A7DB8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M570 228L598 264L628 242" fill="none" stroke="#2A7DB8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- el telón que se abre -->
+  <path d="M60 30H240Q226 190 132 250Q168 300 160 354H60Z" fill="#00417B"/>
+  <path d="M780 30H600Q614 190 708 250Q672 300 680 354H780Z" fill="#00417B"/>
+  <g fill="none" stroke="#1C4578" stroke-width="8" stroke-linecap="round" opacity=".9"><path d="M200 60Q182 180 108 244M150 60Q140 170 88 238M92 268Q104 310 100 346M128 264Q138 310 132 346"/><path d="M640 60Q658 180 732 244M690 60Q700 170 752 238M748 268Q736 310 740 346M712 264Q702 310 708 346"/></g>
+  <path d="M106 248Q120 262 138 248" stroke="#84BCE4" stroke-width="12" fill="none" stroke-linecap="round"/><path d="M734 248Q720 262 702 248" stroke="#84BCE4" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M44 22H796V58Q766 92 732 58Q700 92 666 58Q632 92 598 58Q564 92 530 58Q496 92 462 58Q420 92 386 58Q352 92 318 58Q284 92 250 58Q216 92 182 58Q148 92 114 58Q78 92 44 58Z" fill="#1C4578"/>
+  <!-- el docente y la hoja de evaluación: ÚNICO AMARILLO -->
+  <path d="M1058 440V276Q1058 224 1110 224Q1162 224 1162 276V440Z" fill="#00417B"/>
+  <g transform="translate(1106 184) scale(-1 1)"><circle r="36" fill="#FFFFFF" stroke="#00417B" stroke-width="6"/><path d="M-36 4A36 36 0 0 1 29 -22Q4 -5 -36 4Z" fill="#132B41" stroke="#132B41" stroke-width="6" stroke-linejoin="round"/></g>
+
+  <rect x="846" y="388" width="300" height="14" rx="7" fill="#5BA3BD"/><path d="M872 402V440M1122 402V440" stroke="#5BA3BD" stroke-width="12"/>
+  <g transform="rotate(-5 950 260)">
+    <rect x="862" y="132" width="172" height="238" rx="10" fill="#F0B443" filter="url(#ilu-primera-vez-sombra)"/>
+    <g fill="none" stroke="#132B41" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><rect x="884" y="156" width="24" height="24" rx="4"/><rect x="884" y="198" width="24" height="24" rx="4"/><rect x="884" y="240" width="24" height="24" rx="4"/></g>
+    <g fill="#132B41" opacity=".55"><rect x="924" y="162" width="88" height="12" rx="6"/><rect x="924" y="204" width="70" height="12" rx="6"/><rect x="924" y="246" width="84" height="12" rx="6"/></g>
+    <rect x="938" y="286" width="74" height="60" rx="8" fill="#FFFFFF" stroke="#132B41" stroke-width="5"/>
+  </g>
+  <path d="M1106 278L1084 342L1032 314" fill="none" stroke="#2A5E96" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1030" cy="313" r="16" fill="#2A5E96"/>
+  </g>
+</svg>
