@@ -1,10 +1,6 @@
-# Avance · El sílabo universitario y el backward design · 2026-11-24
+# Avance · El sílabo universitario y el backward design · 2026-11-27
 
 Esta entrega es un avance: lo que sigue está detenido y llega en una entrega siguiente.
-
-## Huecos por llenar
-
-- `tema3.html`: pódcast de 3.1: falta el archivo 01_pod
 
 ## Errores de origen abiertos
 
